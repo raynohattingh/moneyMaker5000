@@ -1,0 +1,17 @@
+{
+  "session_start_time": 1748620434.065484,
+  "initial_portfolio_value": 15.218033,
+  "trades": [],
+  "portfolio_snapshots": [
+    {
+      "timestamp": 1748620657.539277,
+      "total_value": 233.20691684,
+      "allocations": {
+        "ZAR": 6.525549587553991,
+        "ETH": 93.474450412446,
+        "USDT": 0.0
+      },
+      "growth_from_start": 1432.4379756569065
+    }
+  ]
+}

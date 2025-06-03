@@ -1,0 +1,43 @@
+// Note: This file uses the MCP server configuration schema, which extends beyond standard VS Code extension schema.
+// Some properties like 'installDirections' may show as errors in standard VS Code validation but are valid for MCP.
+{
+  "name": "luno-mcp",
+  "displayName": "Luno MCP",
+  "description": "Luno API wrapped as an MCP server",
+  "version": "0.1.0",
+  "publisher": "luno",
+  "commands": [
+    {
+      "command": "luno-mcp.install",
+      "title": "Install Luno MCP Server",
+      "category": "VS Code: Install Server"
+    }
+  ],
+  "installDirections": {
+    "configDirections": "Add the following to your settings.json or mcp.json file:\\\\n\\\\n```json\\\\n{\\\\n  \\\\\"mcp\\\\\\\": {\\\\n    \\\\\"servers\\\\\\\": {\\\\n      \\\\\"luno\\\\\\\": {\\\\n        \\\\\"command\\\\\\\": \\\\\"docker\\\\\\\",\\\\n        \\\\\"args\\\\\\\": [\\\\n          \\\\\"run\\\\\\\",\\\\n          \\\\\"--rm\\\\\\\",\\\\n          \\\\\"-i\\\\\\\",\\\\n          \\\\\"-e\\\\\\\",\\\\n          \\\\\"LUNO_API_KEY_ID=${input:luno_api_key_id}\\\\\\\",\\\\n          \\\\\"-e\\\\\\\",\\\\n          \\\\\"LUNO_API_SECRET=${input:luno_api_secret}\\\\\\\",\\\\n          \\\\\"ghcr.io/luno/luno-mcp:latest\\\\\"\\\\n        ],\\\\n        \\\\\"env\\\\\\\": {}\\\\n      }\\\\n    }\\\\n  }\\\\n}\\\\n```"
+  },
+  "inputs": [
+    {
+      "id": "luno_api_key_id",
+      "type": "promptString",
+      "description": "Luno API Key ID",
+      "password": true
+    },
+    {
+      "id": "luno_api_secret",
+      "type": "promptString",
+      "description": "Luno API Secret",
+      "password": true
+    }
+  ],
+  "servers": {
+    "luno": {
+      "command": "sh",
+        "args": ["-c", "cd ${workspaceFolder} && exec ./luno-mcp --domain api.staging.luno.com"], // Build and run local binary, so that we can test changes locally.
+      "env": {
+        "LUNO_API_KEY_ID": "${input:luno_api_key_id}",
+        "LUNO_API_SECRET": "${input:luno_api_secret}"
+      }
+    },
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "session_start_time": 1748876203.997521,
+  "initial_portfolio_value": 3226.698807,
+  "trades": [],
+  "portfolio_snapshots": [
+    {
+      "timestamp": 1748876394.557405,
+      "total_value": 1499.079802,
+      "allocations": {
+        "ZAR": 100.0,
+        "XBT": 0.0
+      },
+      "growth_from_start": -53.13556365290448
+    },
+    {
+      "timestamp": 1748876589.4381812,
+      "total_value": 1499.079802,
+      "allocations": {
+        "ZAR": 100.0,
+        "XBT": 0.0
+      },
+      "growth_from_start": -53.13556365290448
+    },
+    {
+      "timestamp": 1748876788.945597,
+      "total_value": 1499.079802,
+      "allocations": {
+        "ZAR": 100.0,
+        "XBT": 0.0
+      },
+      "growth_from_start": -53.13556365290448
+    },
+    {
+      "timestamp": 1748935351.446097,
+      "total_value": 1499.079802,
+      "allocations": {
+        "ZAR": 100.0,
+        "XBT": 0.0
+      },
+      "growth_from_start": -53.54137799450335
+    },
+    {
+      "timestamp": 1748935541.5094988,
+      "total_value": 1499.079802,
+      "allocations": {
+        "ZAR": 100.0,
+        "XBT": 0.0
+      },
+      "growth_from_start": -53.54137799450335
+    }
+  ]
+}

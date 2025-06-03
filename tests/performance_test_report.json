@@ -1,0 +1,41 @@
+{
+  "test_summary": {
+    "timestamp": "2025-06-02T15:46:59.438290",
+    "total_runtime_seconds": 64.15513873100281,
+    "cycles_completed": 5
+  },
+  "speed_metrics": {
+    "initialization_time": 9.893805027008057,
+    "cycle_performance": {
+      "average_seconds": 9.45284399986267,
+      "min_seconds": 9.154239892959595,
+      "max_seconds": 10.053433895111084,
+      "total_cycles": 5
+    },
+    "api_performance": {
+      "average_response_time": 0.24871052424112955,
+      "total_calls": 75,
+      "fastest_call": 0.2168881893157959,
+      "slowest_call": 0.34108495712280273
+    }
+  },
+  "error_metrics": {
+    "total_errors": 0,
+    "api_errors": 0,
+    "trading_errors": 0,
+    "api_error_rate": 0.0,
+    "error_rate_per_cycle": 0.0
+  },
+  "correctness_metrics": {
+    "api_success_rate": 1.0,
+    "trading_decisions": 25,
+    "portfolio_growth_pct": 0.0,
+    "portfolio_snapshots": 6
+  },
+  "trading_activity": {
+    "trades_attempted": 0,
+    "trades_successful": 0,
+    "pairs_processed": 25,
+    "cycles_completed": 5
+  }
+}

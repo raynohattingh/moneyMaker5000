@@ -1,0 +1,8 @@
+{
+    "python.analysis.extraPaths": [
+        "./src/strategies",
+        "./src/utils",
+        "./config/trading",
+        "./src/core"
+    ]
+}

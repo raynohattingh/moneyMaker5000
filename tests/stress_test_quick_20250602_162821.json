@@ -1,0 +1,214 @@
+{
+  "test_type": "quick",
+  "session_start_time": 1748874453.524698,
+  "initial_memory_mb": 32.359375,
+  "stress_tests": {
+    "high_frequency": {},
+    "latency_resilience": {},
+    "memory_management": {},
+    "long_running": {},
+    "concurrent_operations": {}
+  },
+  "resource_monitoring": {
+    "memory_usage": [
+      {
+        "timestamp": 1748874463.425857,
+        "memory_mb": 35.25,
+        "cpu_percent": 0.0,
+        "memory_growth_mb": 2.890625
+      },
+      {
+        "timestamp": 1748874466.6717281,
+        "memory_mb": 35.34375,
+        "cpu_percent": 2.8,
+        "memory_growth_mb": 2.984375
+      },
+      {
+        "timestamp": 1748874470.1436942,
+        "memory_mb": 35.375,
+        "cpu_percent": 2.5,
+        "memory_growth_mb": 3.015625
+      },
+      {
+        "timestamp": 1748874486.95957,
+        "memory_mb": 35.40625,
+        "cpu_percent": 2.2,
+        "memory_growth_mb": 3.046875
+      },
+      {
+        "timestamp": 1748874501.0617988,
+        "memory_mb": 35.40625,
+        "cpu_percent": 2.4,
+        "memory_growth_mb": 3.046875
+      }
+    ],
+    "cpu_usage": [],
+    "network_calls": [
+      {
+        "type": "get_ticker",
+        "duration": 0.24006891250610352,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874463.6659782
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.22964882850646973,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874463.895639
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.22886300086975098,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874464.3295739
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.23681402206420898,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874464.5663931
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.25907015800476074,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874465.0286038
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.27906107902526855,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874465.307669
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.23541498184204102,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874465.748587
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.23419594764709473,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874465.98279
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.23755311965942383,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874466.4238012
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.24778127670288086,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874466.671586
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.23620820045471191,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874467.1130729
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.22086811065673828,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874467.3339462
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.3298022747039795,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874467.868839
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.23131799697875977,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874468.100161
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.24193787574768066,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874468.545985
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.22277402877807617,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874468.7687628
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.2289111614227295,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874469.1996832
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.27332615852355957,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874469.473014
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.23637700080871582,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874469.915173
+      },
+      {
+        "type": "get_ticker",
+        "duration": 0.2283482551574707,
+        "success": true,
+        "latency_ms": null,
+        "timestamp": 1748874470.1435258
+      }
+    ]
+  },
+  "test_summary": {
+    "performance": {
+      "average_cycle_time": 0.9474070242473057,
+      "min_cycle_time": 0.4570949077606201,
+      "max_cycle_time": 1.301612138748169,
+      "cycle_variance": 0.8445172309875488,
+      "total_cycles": 28
+    },
+    "resources": {
+      "memory_growth_mb": 3.046875,
+      "average_memory_mb": 35.35625,
+      "peak_memory_mb": 35.40625
+    },
+    "api_performance": {
+      "success_rate": 1.0,
+      "average_response_time": 0.24391711950302125,
+      "total_calls": 20
+    },
+    "reliability": {
+      "error_rate": 0.0,
+      "critical_errors": 0,
+      "total_errors": 0
+    }
+  },
+  "session_duration": 47.537357807159424
+}

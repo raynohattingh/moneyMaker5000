@@ -1,0 +1,498 @@
+2025-05-30 17:23:28,388 INFO Pair discovery initialized with config-based asset categories:
+2025-05-30 17:23:28,388 INFO   fiat_currencies: ['ZAR', 'USD', 'EUR', 'GBP']
+2025-05-30 17:23:28,388 INFO   stablecoins: ['USDT', 'USDC']
+2025-05-30 17:23:28,388 INFO   major_cryptos: ['BTC', 'XBT', 'ETH', 'ADA', 'XRP']
+2025-05-30 17:23:28,388 INFO   alt_cryptos: ['LTC', 'BCH', 'DOGE']
+2025-05-30 17:23:28,388 INFO Risk Manager initialized: stop_loss=5.0%, take_profit=15.0%
+2025-05-30 17:23:28,388 INFO Risk management system initialized
+2025-05-30 17:23:28,388 INFO Performance Monitor initialized - tracking to performance_data.json
+2025-05-30 17:23:28,388 INFO Performance monitoring system initialized
+2025-05-30 17:23:28,388 INFO Aggressive rotation enabled: will rotate after 3 cycles without trades
+2025-05-30 17:23:28,388 INFO Multi-pair trading mode enabled - discovering trading pairs...
+2025-05-30 17:23:28,388 INFO Discovering trading pairs for assets: ['ZAR', 'USDT', 'USDC', 'XBT', 'ETH', 'XRP', 'LTC', 'BCH', 'ADA']
+2025-05-30 17:23:28,388 INFO Using configuration-based discovery method
+2025-05-30 17:23:28,388 INFO Generated 50 dynamic pair combinations from 9 assets
+2025-05-30 17:23:28,388 INFO Asset categories: 1 fiat, 2 stablecoins, 5 major cryptos, 2 alt cryptos
+2025-05-30 17:23:28,388 INFO Testing 50 prioritized pairs
+2025-05-30 17:23:28,388 INFO Rate limiting: 150ms between requests
+2025-05-30 17:23:28,548 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:28,861 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ADAZAR HTTP/1.1" 200 149
+2025-05-30 17:23:28,863 DEBUG ✅ Valid pair found: ADAZAR
+2025-05-30 17:23:28,946 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:29,171 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ADAZAR HTTP/1.1" 200 149
+2025-05-30 17:23:29,176 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:29,413 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=ADAZAR HTTP/1.1" 200 72
+2025-05-30 17:23:29,572 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:29,799 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BCHZAR HTTP/1.1" 200 146
+2025-05-30 17:23:29,802 DEBUG ✅ Valid pair found: BCHZAR
+2025-05-30 17:23:29,884 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:30,127 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BCHZAR HTTP/1.1" 200 146
+2025-05-30 17:23:30,131 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:30,432 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=BCHZAR HTTP/1.1" 200 72
+2025-05-30 17:23:30,593 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:30,820 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BTCZAR HTTP/1.1" 400 69
+2025-05-30 17:23:30,821 DEBUG ❌ Pair BTCZAR not found (400 error) - skipping
+2025-05-30 17:23:30,980 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:31,205 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHZAR HTTP/1.1" 200 151
+2025-05-30 17:23:31,207 DEBUG ✅ Valid pair found: ETHZAR
+2025-05-30 17:23:31,288 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:31,506 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHZAR HTTP/1.1" 200 151
+2025-05-30 17:23:31,510 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:31,751 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=ETHZAR HTTP/1.1" 200 72
+2025-05-30 17:23:31,909 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:32,254 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=LTCZAR HTTP/1.1" 200 149
+2025-05-30 17:23:32,256 DEBUG ✅ Valid pair found: LTCZAR
+2025-05-30 17:23:32,336 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:32,551 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=LTCZAR HTTP/1.1" 200 149
+2025-05-30 17:23:32,555 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:32,849 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=LTCZAR HTTP/1.1" 200 72
+2025-05-30 17:23:33,008 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:33,276 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=USDCZAR HTTP/1.1" 200 146
+2025-05-30 17:23:33,278 DEBUG ✅ Valid pair found: USDCZAR
+2025-05-30 17:23:33,362 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:33,593 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=USDCZAR HTTP/1.1" 200 146
+2025-05-30 17:23:33,594 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:33,823 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=USDCZAR HTTP/1.1" 200 78
+2025-05-30 17:23:33,983 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:34,204 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=USDTZAR HTTP/1.1" 200 146
+2025-05-30 17:23:34,206 DEBUG ✅ Valid pair found: USDTZAR
+2025-05-30 17:23:34,287 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:34,507 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=USDTZAR HTTP/1.1" 200 146
+2025-05-30 17:23:34,511 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:34,746 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=USDTZAR HTTP/1.1" 200 79
+2025-05-30 17:23:34,902 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:35,150 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XBTZAR HTTP/1.1" 200 153
+2025-05-30 17:23:35,152 DEBUG ✅ Valid pair found: XBTZAR
+2025-05-30 17:23:35,232 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:35,461 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XBTZAR HTTP/1.1" 200 151
+2025-05-30 17:23:35,465 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:35,694 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=XBTZAR HTTP/1.1" 200 72
+2025-05-30 17:23:35,851 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:36,227 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XRPZAR HTTP/1.1" 200 144
+2025-05-30 17:23:36,229 DEBUG ✅ Valid pair found: XRPZAR
+2025-05-30 17:23:36,309 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:36,526 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XRPZAR HTTP/1.1" 200 144
+2025-05-30 17:23:36,529 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:36,766 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=XRPZAR HTTP/1.1" 200 72
+2025-05-30 17:23:36,923 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:37,155 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ADAUSDC HTTP/1.1" 400 69
+2025-05-30 17:23:37,157 DEBUG ❌ Pair ADAUSDC not found (400 error) - skipping
+2025-05-30 17:23:37,158 INFO Progress: 10/50 pairs tested, 8 valid pairs found
+2025-05-30 17:23:37,316 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:37,544 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BCHUSDC HTTP/1.1" 400 69
+2025-05-30 17:23:37,545 DEBUG ❌ Pair BCHUSDC not found (400 error) - skipping
+2025-05-30 17:23:37,702 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:23:37,983 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BTCUSDC HTTP/1.1" 400 69
+2025-05-30 17:23:37,984 DEBUG ❌ Pair BTCUSDC not found (400 error) - skipping
+2025-05-30 17:25:15,074 INFO Pair discovery initialized with config-based asset categories:
+2025-05-30 17:25:15,074 INFO   fiat_currencies: ['ZAR', 'USD', 'EUR', 'GBP']
+2025-05-30 17:25:15,074 INFO   stablecoins: ['USDT', 'USDC']
+2025-05-30 17:25:15,074 INFO   major_cryptos: ['BTC', 'XBT', 'ETH', 'ADA', 'XRP']
+2025-05-30 17:25:15,074 INFO   alt_cryptos: ['LTC', 'BCH', 'DOGE']
+2025-05-30 17:25:15,074 INFO Risk Manager initialized: stop_loss=5.0%, take_profit=15.0%
+2025-05-30 17:25:15,074 INFO Risk management system initialized
+2025-05-30 17:25:15,074 INFO Performance Monitor initialized - tracking to performance_data.json
+2025-05-30 17:25:15,074 INFO Performance monitoring system initialized
+2025-05-30 17:25:15,074 INFO Aggressive rotation enabled: will rotate after 3 cycles without trades
+2025-05-30 17:25:15,074 INFO Multi-pair trading mode enabled - discovering trading pairs...
+2025-05-30 17:25:15,075 INFO Discovering trading pairs for assets: ['ZAR', 'USDT', 'USDC', 'XBT', 'ETH', 'XRP', 'LTC', 'BCH', 'ADA']
+2025-05-30 17:25:15,075 INFO Using configuration-based discovery method
+2025-05-30 17:25:15,075 INFO Generated 50 dynamic pair combinations from 9 assets
+2025-05-30 17:25:15,075 INFO Asset categories: 1 fiat, 2 stablecoins, 5 major cryptos, 2 alt cryptos
+2025-05-30 17:25:15,075 INFO Testing 50 prioritized pairs
+2025-05-30 17:25:15,075 INFO Rate limiting: 150ms between requests
+2025-05-30 17:25:15,234 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:15,497 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ADAZAR HTTP/1.1" 200 149
+2025-05-30 17:25:15,500 DEBUG ✅ Valid pair found: ADAZAR
+2025-05-30 17:25:15,584 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:15,811 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ADAZAR HTTP/1.1" 200 148
+2025-05-30 17:25:15,815 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:16,041 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=ADAZAR HTTP/1.1" 200 72
+2025-05-30 17:25:16,200 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:16,424 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BCHZAR HTTP/1.1" 200 146
+2025-05-30 17:25:16,428 DEBUG ✅ Valid pair found: BCHZAR
+2025-05-30 17:25:16,510 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:16,734 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BCHZAR HTTP/1.1" 200 146
+2025-05-30 17:25:16,738 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:16,995 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=BCHZAR HTTP/1.1" 200 72
+2025-05-30 17:25:17,153 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:17,380 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BTCZAR HTTP/1.1" 400 69
+2025-05-30 17:25:17,382 DEBUG ❌ Pair BTCZAR not found (400 error) - skipping
+2025-05-30 17:25:17,539 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:17,757 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHZAR HTTP/1.1" 200 150
+2025-05-30 17:25:17,759 DEBUG ✅ Valid pair found: ETHZAR
+2025-05-30 17:25:17,841 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:18,114 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHZAR HTTP/1.1" 200 150
+2025-05-30 17:25:18,118 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:18,430 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=ETHZAR HTTP/1.1" 200 72
+2025-05-30 17:25:18,590 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:18,827 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=LTCZAR HTTP/1.1" 200 150
+2025-05-30 17:25:18,829 DEBUG ✅ Valid pair found: LTCZAR
+2025-05-30 17:25:18,911 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:19,172 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=LTCZAR HTTP/1.1" 200 150
+2025-05-30 17:25:19,176 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:19,477 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=LTCZAR HTTP/1.1" 200 72
+2025-05-30 17:25:19,633 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:19,854 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=USDCZAR HTTP/1.1" 200 149
+2025-05-30 17:25:19,855 DEBUG ✅ Valid pair found: USDCZAR
+2025-05-30 17:25:19,938 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:20,222 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=USDCZAR HTTP/1.1" 200 149
+2025-05-30 17:25:20,223 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:20,526 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=USDCZAR HTTP/1.1" 200 78
+2025-05-30 17:25:20,683 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:21,084 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=USDTZAR HTTP/1.1" 200 146
+2025-05-30 17:25:21,086 DEBUG ✅ Valid pair found: USDTZAR
+2025-05-30 17:25:21,170 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:21,401 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=USDTZAR HTTP/1.1" 200 146
+2025-05-30 17:25:21,406 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:21,643 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=USDTZAR HTTP/1.1" 200 79
+2025-05-30 17:25:21,800 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:22,098 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XBTZAR HTTP/1.1" 200 147
+2025-05-30 17:25:22,098 DEBUG ✅ Valid pair found: XBTZAR
+2025-05-30 17:25:22,179 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:22,401 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XBTZAR HTTP/1.1" 200 149
+2025-05-30 17:25:22,404 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:22,629 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=XBTZAR HTTP/1.1" 200 72
+2025-05-30 17:25:22,788 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:23,010 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XRPZAR HTTP/1.1" 200 149
+2025-05-30 17:25:23,011 DEBUG ✅ Valid pair found: XRPZAR
+2025-05-30 17:25:23,094 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:23,364 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XRPZAR HTTP/1.1" 200 149
+2025-05-30 17:25:23,368 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:23,672 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=XRPZAR HTTP/1.1" 200 72
+2025-05-30 17:25:23,832 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:24,066 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ADAUSDC HTTP/1.1" 400 69
+2025-05-30 17:25:24,068 DEBUG ❌ Pair ADAUSDC not found (400 error) - skipping
+2025-05-30 17:25:24,069 INFO Progress: 10/50 pairs tested, 8 valid pairs found
+2025-05-30 17:25:24,226 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:24,451 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BCHUSDC HTTP/1.1" 400 69
+2025-05-30 17:25:24,452 DEBUG ❌ Pair BCHUSDC not found (400 error) - skipping
+2025-05-30 17:25:24,605 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:24,834 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BTCUSDC HTTP/1.1" 400 69
+2025-05-30 17:25:24,835 DEBUG ❌ Pair BTCUSDC not found (400 error) - skipping
+2025-05-30 17:25:24,990 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:25,244 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHUSDC HTTP/1.1" 200 150
+2025-05-30 17:25:25,246 DEBUG ✅ Valid pair found: ETHUSDC
+2025-05-30 17:25:25,329 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:25,555 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHUSDC HTTP/1.1" 200 149
+2025-05-30 17:25:25,558 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:25,813 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=ETHUSDC HTTP/1.1" 200 72
+2025-05-30 17:25:25,972 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:26,194 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=LTCUSDC HTTP/1.1" 400 69
+2025-05-30 17:25:26,195 DEBUG ❌ Pair LTCUSDC not found (400 error) - skipping
+2025-05-30 17:25:26,353 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:26,586 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=USDTUSDC HTTP/1.1" 400 69
+2025-05-30 17:25:26,587 DEBUG ❌ Pair USDTUSDC not found (400 error) - skipping
+2025-05-30 17:25:26,746 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:27,029 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XBTUSDC HTTP/1.1" 200 154
+2025-05-30 17:25:27,031 DEBUG ✅ Valid pair found: XBTUSDC
+2025-05-30 17:25:27,115 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:27,341 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XBTUSDC HTTP/1.1" 200 154
+2025-05-30 17:25:27,346 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:27,575 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=XBTUSDC HTTP/1.1" 200 72
+2025-05-30 17:25:27,734 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:27,966 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XRPUSDC HTTP/1.1" 400 69
+2025-05-30 17:25:27,967 DEBUG ❌ Pair XRPUSDC not found (400 error) - skipping
+2025-05-30 17:25:28,125 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:28,389 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ADAUSDT HTTP/1.1" 400 69
+2025-05-30 17:25:28,391 DEBUG ❌ Pair ADAUSDT not found (400 error) - skipping
+2025-05-30 17:25:28,548 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:28,773 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BCHUSDT HTTP/1.1" 400 69
+2025-05-30 17:25:28,775 DEBUG ❌ Pair BCHUSDT not found (400 error) - skipping
+2025-05-30 17:25:28,932 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:29,155 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BTCUSDT HTTP/1.1" 400 69
+2025-05-30 17:25:29,156 DEBUG ❌ Pair BTCUSDT not found (400 error) - skipping
+2025-05-30 17:25:29,157 INFO Progress: 20/50 pairs tested, 10 valid pairs found
+2025-05-30 17:25:29,314 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:29,539 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHUSDT HTTP/1.1" 200 150
+2025-05-30 17:25:29,539 DEBUG ✅ Valid pair found: ETHUSDT
+2025-05-30 17:25:29,615 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:29,829 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHUSDT HTTP/1.1" 200 150
+2025-05-30 17:25:29,832 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:30,056 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=ETHUSDT HTTP/1.1" 200 72
+2025-05-30 17:25:30,212 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:30,487 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=LTCUSDT HTTP/1.1" 400 69
+2025-05-30 17:25:30,489 DEBUG ❌ Pair LTCUSDT not found (400 error) - skipping
+2025-05-30 17:25:30,646 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:30,864 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=USDCUSDT HTTP/1.1" 200 148
+2025-05-30 17:25:30,866 DEBUG ✅ Valid pair found: USDCUSDT
+2025-05-30 17:25:30,944 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:31,230 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=USDCUSDT HTTP/1.1" 200 148
+2025-05-30 17:25:31,233 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:31,535 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=USDCUSDT HTTP/1.1" 200 72
+2025-05-30 17:25:31,695 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:31,918 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XBTUSDT HTTP/1.1" 200 155
+2025-05-30 17:25:31,920 DEBUG ✅ Valid pair found: XBTUSDT
+2025-05-30 17:25:31,999 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:32,284 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XBTUSDT HTTP/1.1" 200 155
+2025-05-30 17:25:32,288 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:32,583 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=XBTUSDT HTTP/1.1" 200 72
+2025-05-30 17:25:32,743 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:32,969 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XRPUSDT HTTP/1.1" 200 149
+2025-05-30 17:25:32,971 DEBUG ✅ Valid pair found: XRPUSDT
+2025-05-30 17:25:33,049 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:33,372 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XRPUSDT HTTP/1.1" 200 148
+2025-05-30 17:25:33,377 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:33,632 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=XRPUSDT HTTP/1.1" 200 72
+2025-05-30 17:25:33,791 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:34,010 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ADABTC HTTP/1.1" 400 69
+2025-05-30 17:25:34,012 DEBUG ❌ Pair ADABTC not found (400 error) - skipping
+2025-05-30 17:25:34,169 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:34,497 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BCHBTC HTTP/1.1" 400 69
+2025-05-30 17:25:34,498 DEBUG ❌ Pair BCHBTC not found (400 error) - skipping
+2025-05-30 17:25:34,654 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:34,896 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHBTC HTTP/1.1" 400 69
+2025-05-30 17:25:34,898 DEBUG ❌ Pair ETHBTC not found (400 error) - skipping
+2025-05-30 17:25:35,052 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:35,280 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=LTCBTC HTTP/1.1" 400 69
+2025-05-30 17:25:35,281 DEBUG ❌ Pair LTCBTC not found (400 error) - skipping
+2025-05-30 17:25:35,439 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:35,729 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XBTBTC HTTP/1.1" 400 69
+2025-05-30 17:25:35,730 DEBUG ❌ Pair XBTBTC not found (400 error) - skipping
+2025-05-30 17:25:35,731 INFO Progress: 30/50 pairs tested, 14 valid pairs found
+2025-05-30 17:25:35,888 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:36,105 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XRPBTC HTTP/1.1" 400 69
+2025-05-30 17:25:36,105 DEBUG ❌ Pair XRPBTC not found (400 error) - skipping
+2025-05-30 17:25:36,264 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:36,489 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ADAXRP HTTP/1.1" 400 69
+2025-05-30 17:25:36,491 DEBUG ❌ Pair ADAXRP not found (400 error) - skipping
+2025-05-30 17:25:36,649 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:36,859 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BCHXRP HTTP/1.1" 400 69
+2025-05-30 17:25:36,861 DEBUG ❌ Pair BCHXRP not found (400 error) - skipping
+2025-05-30 17:25:37,017 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:37,298 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BTCXRP HTTP/1.1" 400 69
+2025-05-30 17:25:37,299 DEBUG ❌ Pair BTCXRP not found (400 error) - skipping
+2025-05-30 17:25:37,456 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:37,878 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHXRP HTTP/1.1" 400 69
+2025-05-30 17:25:37,879 DEBUG ❌ Pair ETHXRP not found (400 error) - skipping
+2025-05-30 17:25:38,036 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:38,355 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=LTCXRP HTTP/1.1" 400 69
+2025-05-30 17:25:38,356 DEBUG ❌ Pair LTCXRP not found (400 error) - skipping
+2025-05-30 17:25:38,511 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:38,740 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XBTXRP HTTP/1.1" 400 69
+2025-05-30 17:25:38,742 DEBUG ❌ Pair XBTXRP not found (400 error) - skipping
+2025-05-30 17:25:38,899 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:39,126 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ADAXBT HTTP/1.1" 200 143
+2025-05-30 17:25:39,128 DEBUG ✅ Valid pair found: ADAXBT
+2025-05-30 17:25:39,210 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:39,428 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ADAXBT HTTP/1.1" 200 143
+2025-05-30 17:25:39,431 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:39,721 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=ADAXBT HTTP/1.1" 200 72
+2025-05-30 17:25:39,878 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:40,233 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BCHXBT HTTP/1.1" 200 143
+2025-05-30 17:25:40,235 DEBUG ✅ Valid pair found: BCHXBT
+2025-05-30 17:25:40,316 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:40,544 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BCHXBT HTTP/1.1" 200 143
+2025-05-30 17:25:40,549 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:40,782 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=BCHXBT HTTP/1.1" 200 72
+2025-05-30 17:25:40,942 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:41,189 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BTCXBT HTTP/1.1" 400 69
+2025-05-30 17:25:41,191 DEBUG ❌ Pair BTCXBT not found (400 error) - skipping
+2025-05-30 17:25:41,191 INFO Progress: 40/50 pairs tested, 16 valid pairs found
+2025-05-30 17:25:41,345 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:41,575 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHXBT HTTP/1.1" 200 148
+2025-05-30 17:25:41,577 DEBUG ✅ Valid pair found: ETHXBT
+2025-05-30 17:25:41,658 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:41,880 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHXBT HTTP/1.1" 200 148
+2025-05-30 17:25:41,882 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:42,110 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=ETHXBT HTTP/1.1" 200 72
+2025-05-30 17:25:42,269 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:42,545 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=LTCXBT HTTP/1.1" 200 144
+2025-05-30 17:25:42,547 DEBUG ✅ Valid pair found: LTCXBT
+2025-05-30 17:25:42,629 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:42,855 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=LTCXBT HTTP/1.1" 200 144
+2025-05-30 17:25:42,857 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:43,088 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=LTCXBT HTTP/1.1" 200 72
+2025-05-30 17:25:43,247 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:43,478 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XRPXBT HTTP/1.1" 200 146
+2025-05-30 17:25:43,480 DEBUG ✅ Valid pair found: XRPXBT
+2025-05-30 17:25:43,561 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:43,810 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XRPXBT HTTP/1.1" 200 146
+2025-05-30 17:25:43,813 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:44,118 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=XRPXBT HTTP/1.1" 200 72
+2025-05-30 17:25:44,277 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:44,506 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ADAETH HTTP/1.1" 400 69
+2025-05-30 17:25:44,506 DEBUG ❌ Pair ADAETH not found (400 error) - skipping
+2025-05-30 17:25:44,663 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:44,886 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BCHETH HTTP/1.1" 400 69
+2025-05-30 17:25:44,887 DEBUG ❌ Pair BCHETH not found (400 error) - skipping
+2025-05-30 17:25:45,045 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:45,259 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BTCETH HTTP/1.1" 400 69
+2025-05-30 17:25:45,260 DEBUG ❌ Pair BTCETH not found (400 error) - skipping
+2025-05-30 17:25:45,417 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:45,688 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=LTCETH HTTP/1.1" 400 69
+2025-05-30 17:25:45,689 DEBUG ❌ Pair LTCETH not found (400 error) - skipping
+2025-05-30 17:25:45,849 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:46,076 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XBTETH HTTP/1.1" 400 69
+2025-05-30 17:25:46,078 DEBUG ❌ Pair XBTETH not found (400 error) - skipping
+2025-05-30 17:25:46,233 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:46,454 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=XRPETH HTTP/1.1" 400 69
+2025-05-30 17:25:46,456 DEBUG ❌ Pair XRPETH not found (400 error) - skipping
+2025-05-30 17:25:46,611 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:46,824 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=BCHADA HTTP/1.1" 400 69
+2025-05-30 17:25:46,824 DEBUG ❌ Pair BCHADA not found (400 error) - skipping
+2025-05-30 17:25:46,824 INFO Discovery complete: 19 valid pairs found out of 50 tested
+2025-05-30 17:25:46,825 INFO Trading Pair Discovery Summary:
+2025-05-30 17:25:46,825 INFO   Total valid pairs: 19
+2025-05-30 17:25:46,825 INFO   BTC pairs: 5 (ADAXBT, BCHXBT, ETHXBT, LTCXBT, XRPXBT)
+2025-05-30 17:25:46,825 INFO   USDC pairs: 2 (ETHUSDC, XBTUSDC)
+2025-05-30 17:25:46,825 INFO   USDT pairs: 4 (ETHUSDT, USDCUSDT, XBTUSDT, XRPUSDT)
+2025-05-30 17:25:46,825 INFO   ZAR pairs: 8 (ADAZAR, BCHZAR, ETHZAR, LTCZAR, USDCZAR, USDTZAR, XBTZAR, XRPZAR)
+2025-05-30 17:25:46,825 INFO   Top priority pairs: XBTZAR, ETHZAR, USDCZAR, USDTZAR, ADAZAR, XRPZAR, BCHZAR, LTCZAR, XBTUSDT, ETHUSDT
+2025-05-30 17:25:46,825 INFO Trading Pair Discovery Summary:
+2025-05-30 17:25:46,825 INFO   Total valid pairs: 19
+2025-05-30 17:25:46,825 INFO   BTC pairs: 5 (ADAXBT, BCHXBT, ETHXBT, LTCXBT, XRPXBT)
+2025-05-30 17:25:46,825 INFO   USDC pairs: 2 (ETHUSDC, XBTUSDC)
+2025-05-30 17:25:46,825 INFO   USDT pairs: 4 (ETHUSDT, USDCUSDT, XBTUSDT, XRPUSDT)
+2025-05-30 17:25:46,825 INFO   ZAR pairs: 8 (ADAZAR, BCHZAR, ETHZAR, LTCZAR, USDCZAR, USDTZAR, XBTZAR, XRPZAR)
+2025-05-30 17:25:46,825 INFO   Top priority pairs: XBTZAR, ETHZAR, USDCZAR, USDTZAR, ADAZAR, XRPZAR, BCHZAR, LTCZAR, XBTUSDT, ETHUSDT
+2025-05-30 17:25:46,825 INFO Evaluating trading pairs...
+2025-05-30 17:25:46,825 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:47,094 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:47,098 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:47,317 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:47,321 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:47,567 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:47,571 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:47,794 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:47,798 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:48,019 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:48,023 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:48,311 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:48,315 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:48,554 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:48,558 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:48,835 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:48,839 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:49,142 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:49,144 INFO Position filtering enabled. Current holdings: ['USDT', 'ZAR', 'XRP', 'ETH']
+2025-05-30 17:25:49,144 INFO Pair ADAZAR: spread=0.0040, volume_24h=97729.62, score=4.00 (holdings: ZAR✓)
+2025-05-30 17:25:49,144 INFO Pair BCHZAR: spread=0.0015, volume_24h=2.5616, score=2.49 (holdings: ZAR✓)
+2025-05-30 17:25:49,144 DEBUG Bonus for ETHZAR - holdings in both ETH and ZAR
+2025-05-30 17:25:49,144 INFO Pair ETHZAR: spread=0.0020, volume_24h=110.969895, score=0.94 (holdings: ETH✓ ZAR✓)
+2025-05-30 17:25:49,144 INFO Pair LTCZAR: spread=0.0055, volume_24h=386.7938, score=0.29 (holdings: ZAR✓)
+2025-05-30 17:25:49,144 INFO Pair USDCZAR: spread=0.0006, volume_24h=295712.8, score=1.55 (holdings: ZAR✓)
+2025-05-30 17:25:49,145 DEBUG Bonus for USDTZAR - holdings in both USDT and ZAR
+2025-05-30 17:25:49,145 INFO Pair USDTZAR: spread=0.0006, volume_24h=407194.76, score=0.47 (holdings: USDT✓ ZAR✓)
+2025-05-30 17:25:49,145 INFO Pair XBTZAR: spread=0.0000, volume_24h=57.8967, score=0.00 (holdings: ZAR✓)
+2025-05-30 17:25:49,145 DEBUG Bonus for XRPZAR - holdings in both XRP and ZAR
+2025-05-30 17:25:49,145 INFO Pair XRPZAR: spread=0.0010, volume_24h=571726.0, score=0.39 (holdings: XRP✓ ZAR✓)
+2025-05-30 17:25:49,145 INFO Pair ETHUSDC: spread=0.0059, volume_24h=20.2443, score=3.00 (holdings: ETH✓)
+2025-05-30 17:25:49,145 DEBUG Filtering out XBTUSDC - no holdings in BTC or USDC
+2025-05-30 17:25:49,145 DEBUG Bonus for ETHUSDT - holdings in both ETH and USDT
+2025-05-30 17:25:49,145 INFO Pair ETHUSDT: spread=0.0143, volume_24h=0.463143, score=0.66 (holdings: ETH✓ USDT✓)
+2025-05-30 17:25:49,145 INFO Pair USDCUSDT: spread=0.0113, volume_24h=2008.48, score=4.00 (holdings: USDT✓)
+2025-05-30 17:25:49,145 INFO Pair XBTUSDT: spread=0.0093, volume_24h=0.6003, score=3.00 (holdings: USDT✓)
+2025-05-30 17:25:49,145 DEBUG Bonus for XRPUSDT - holdings in both XRP and USDT
+2025-05-30 17:25:49,145 INFO Pair XRPUSDT: spread=0.0019, volume_24h=22212.76, score=0.46 (holdings: XRP✓ USDT✓)
+2025-05-30 17:25:49,146 DEBUG Filtering out ADAXBT - no holdings in ADA or BTC
+2025-05-30 17:25:49,146 DEBUG Filtering out BCHXBT - no holdings in BCH or BTC
+2025-05-30 17:25:49,146 INFO Pair ETHXBT: spread=0.0574, volume_24h=10.04, score=3.00 (holdings: ETH✓)
+2025-05-30 17:25:49,146 DEBUG Filtering out LTCXBT - no holdings in LTC or BTC
+2025-05-30 17:25:49,146 INFO Pair XRPXBT: spread=0.0005, volume_24h=39319.0, score=1.48 (holdings: XRP✓)
+2025-05-30 17:25:49,146 INFO 📊 Pair evaluation summary: 15 pairs evaluated, 4 pairs filtered out (no holdings)
+2025-05-30 17:25:49,146 INFO 📊 Pair evaluation summary: 15 pairs evaluated, 4 pairs filtered out (no holdings)
+2025-05-30 17:25:49,146 INFO Pair rotation: batch 1 of 5
+2025-05-30 17:25:49,146 INFO Trading pairs 1-3 out of 15 total pairs
+2025-05-30 17:25:49,146 INFO Selected pairs for trading (rotation 0): ['ADAZAR', 'USDCUSDT', 'ETHUSDC']
+2025-05-30 17:25:49,146 INFO Total discovered pairs: 15
+2025-05-30 17:25:49,146 INFO Created Mean Reversion Strategy for ADAZAR with deviation threshold: 0.005
+2025-05-30 17:25:49,146 INFO Created Mean Reversion Strategy for USDCUSDT with deviation threshold: 0.005
+2025-05-30 17:25:49,146 INFO Created Mean Reversion Strategy for ETHUSDC with deviation threshold: 0.005
+2025-05-30 17:25:49,146 INFO Starting multi-pair trading bot with risk management and performance monitoring...
+2025-05-30 17:25:49,148 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:49,384 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:49,388 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:49,610 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:49,612 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:49,885 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:49,889 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:50,166 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:50,169 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:50,409 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:50,413 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:50,640 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=USDCUSDT HTTP/1.1" 200 148
+2025-05-30 17:25:50,642 DEBUG USDT: 10.129 = 0.00 ZAR (via USDCUSDT)
+2025-05-30 17:25:50,645 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:50,933 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHUSDC HTTP/1.1" 200 149
+2025-05-30 17:25:50,935 DEBUG ETH: 0.00460096 = 0.00 ZAR (via ETHUSDC)
+2025-05-30 17:25:50,936 INFO Initial portfolio value set: 15.22 ZAR
+2025-05-30 17:25:50,936 INFO Performance monitoring started with initial portfolio value: 15.22 ZAR
+2025-05-30 17:25:50,937 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:51,176 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:51,180 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:51,458 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:51,463 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:51,698 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:51,705 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:51,982 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:51,985 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:52,213 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:52,218 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:52,506 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=USDCUSDT HTTP/1.1" 200 148
+2025-05-30 17:25:52,508 DEBUG USDT: 10.129 = 0.00 ZAR (via USDCUSDT)
+2025-05-30 17:25:52,510 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:52,744 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHUSDC HTTP/1.1" 200 150
+2025-05-30 17:25:52,746 DEBUG ETH: 0.00460096 = 0.00 ZAR (via ETHUSDC)
+2025-05-30 17:25:52,749 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:53,029 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:53,034 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:53,269 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:53,273 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:53,554 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:53,558 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:53,782 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:53,786 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:54,079 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:54,081 INFO 📊 Portfolio Summary:
+2025-05-30 17:25:54,081 INFO   💰 Total Value: 15.22 ZAR
+2025-05-30 17:25:54,081 INFO   📈 Active Positions: 1
+2025-05-30 17:25:54,081 INFO 
+2025-05-30 17:25:54,081 INFO   Asset Holdings:
+2025-05-30 17:25:54,081 INFO     💵 ZAR: 15.22 ZAR (100.0%)
+2025-05-30 17:25:54,081 INFO 
+2025-05-30 17:25:54,081 INFO Cycle 1 (rebalance: 1) - Active pairs: ['ADAZAR', 'USDCUSDT', 'ETHUSDC']
+2025-05-30 17:25:54,081 INFO Performing risk management check...
+2025-05-30 17:25:54,083 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:54,296 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ADAZAR HTTP/1.1" 200 149
+2025-05-30 17:25:54,301 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:54,602 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=USDCUSDT HTTP/1.1" 200 148
+2025-05-30 17:25:54,603 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:54,828 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHUSDC HTTP/1.1" 200 149
+2025-05-30 17:25:54,832 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:55,127 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ADAZAR HTTP/1.1" 200 149
+2025-05-30 17:25:55,127 INFO ADAZAR - Ask: 12.84, Bid: 12.7817, Last: 12.8092
+2025-05-30 17:25:55,128 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:55,388 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:55,391 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:55,650 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:55,651 INFO ADAZAR - Balances: ADA=0.0, ZAR=15.218033
+2025-05-30 17:25:55,652 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:55,895 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=ADAZAR HTTP/1.1" 200 72
+2025-05-30 17:25:55,899 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:56,176 DEBUG https://api.luno.com:443 "GET /api/1/listorders?limit=100&pair=ADAZAR HTTP/1.1" 200 16
+2025-05-30 17:25:57,186 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:57,538 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=USDCUSDT HTTP/1.1" 200 148
+2025-05-30 17:25:57,541 INFO USDCUSDT - Ask: 1.0112, Bid: 0.9999, Last: 1.0062
+2025-05-30 17:25:57,543 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:57,769 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:57,773 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:57,988 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:57,991 INFO USDCUSDT - Balances: USDC=0.0, USDT=10.129
+2025-05-30 17:25:57,993 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:58,267 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=USDCUSDT HTTP/1.1" 200 72
+2025-05-30 17:25:58,271 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:58,488 DEBUG https://api.luno.com:443 "GET /api/1/listorders?limit=100&pair=USDCUSDT HTTP/1.1" 200 16
+2025-05-30 17:25:59,495 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:59,718 DEBUG https://api.luno.com:443 "GET /api/1/ticker?pair=ETHUSDC HTTP/1.1" 200 149
+2025-05-30 17:25:59,720 INFO ETHUSDC - Ask: 2616.09, Bid: 2601.43, Last: 2601.63
+2025-05-30 17:25:59,722 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:25:59,948 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:25:59,952 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:26:00,175 DEBUG https://api.luno.com:443 "GET /api/1/balance HTTP/1.1" 200 310
+2025-05-30 17:26:00,177 INFO ETHUSDC - Balances: ETH=0.00460096, USDC=0.0
+2025-05-30 17:26:00,179 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:26:00,415 DEBUG https://api.luno.com:443 "GET /api/1/fee_info?pair=ETHUSDC HTTP/1.1" 200 72
+2025-05-30 17:26:00,419 DEBUG Starting new HTTPS connection (1): api.luno.com:443
+2025-05-30 17:26:00,712 DEBUG https://api.luno.com:443 "GET /api/1/listorders?limit=100&pair=ETHUSDC HTTP/1.1" 200 16
+2025-05-30 17:26:01,718 INFO ⏳ No trades this cycle (1/3 cycles without trades)
